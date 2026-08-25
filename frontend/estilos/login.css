@@ -123,6 +123,7 @@ nav {
 
 
 .cuadro{
+    margin: 50px;
     height: 500px;
     align-items: center;
     display: flex;
