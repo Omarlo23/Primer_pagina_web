@@ -6,6 +6,7 @@
 }
 
 body {
+    background-image: url(https://imgs.search.brave.com/o0ZvFipRCKCDyPHNRWe5ch0OnCsgkGifwAXEzgecNU4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMzMw/ODkyNzUvcGV4ZWxz/LXBob3RvLTMzMDg5/Mjc1L2ZyZWUtcGhv/dG8tb2YtcGFpc2Fq/ZS1lc2Nlbmljby1k/ZS12ZXJhbm8tYWwt/YXRhcmRlY2VyLmpw/ZWc_Y3M9dGlueXNy/Z2ImZHByPTEmdz01/MDA);
     background-color: #0a0a0a;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;

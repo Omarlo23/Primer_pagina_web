@@ -34,19 +34,19 @@
     const slider = document.querySelector(".Slider");
     const boton = document.querySelector(".SliderBt");
 
-    if (slider && boton) {
-        boton.addEventListener("click", () => {
-            slider.scrollBy({
-                left: slider.clientWidth,
-                behavior: "smooth"
-            });
+if (slider && boton) {
+    boton.addEventListener("click", () => {
+        slider.scrollBy({
+            left: slider.clientWidth,
+            behavior: "smooth"
         });
-    }
-
-
-function PrecioCompleto(pago, impuesto){
-    resultado = pago + impuesto;
+    });
 }
 
-let resultado =PrecioCompleto(20.5,15.00);
+function PrecioCompleto(pago, impuesto) {
+    let resultado = pago + impuesto;
+    return resultado;
+}
+
+let resultado = PrecioCompleto(20.50, 15.00);
 console.log(resultado);
